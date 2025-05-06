@@ -2,7 +2,7 @@ basic.showLeds(`
     # . # # .
     . # . . #
     . # # # #
-    . # # # .
+    . . . # .
     . . . . .
     `)
 basic.forever(function () {
@@ -10,4 +10,5 @@ basic.forever(function () {
     	
     }
     radio.sendNumber(0)
+    radio.setGroup(1)
 })
